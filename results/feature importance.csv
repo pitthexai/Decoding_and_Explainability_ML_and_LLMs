@@ -1,0 +1,11 @@
+method,values
+ChatGPT,"Based, on, the, given, data, the, features, can, be, ranked, in, the, following, order, of, importance, F1, F2, F21, F19, F5, F4, F7, F6, F9, F14, F17, F18, F13, F15, F10, F11, F12, F3, F16, F8, F20"
+IG,"F14, F9, F2, F6, F1, F7, F20, F10, F16, F18, F15, F17, F11, F12, F13, F19, F8, F5, F4, F3, F21"
+Corr,"F16, F9, F15, F14, F1, F10, F21, F19, F20, F4, F5, F11, F13, F6, F2, F8, F18, F7, F17, F12, F3"
+PCA,"F21, F5, F1, F2, F14, F7, F17, F4, F11, F9, F3, F10, F20, F18, F8, F6, F15, F13, F19, F16, F12"
+IG ∩ Corr,"F14, F9, F1, F20, F10, F16"
+IG ∩ PCA,"F14, F9, F2, F1, F7"
+Corr ∩ PCA,"F9, F14, F1, F21, F4"
+IG ∪ Corr,"F9, F7, F6, F4, F21, F20, F2, F19, F18, F16, F15, F14, F10, F1"
+IG ∪ PCA,"F9, F7, F6, F5, F4, F21, F20, F2, F18, F17, F16, F14, F11, F10, F1"
+Corr ∪ PCA,"F9, F7, F5, F4, F21, F20, F2, F19, F17, F16, F15, F14, F11, F10, F1"
